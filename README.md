@@ -1,5 +1,13 @@
 # BUFFER OVERFLOW NOTES(THM)
 
+### Access the machine by 
+#### You can log onto the machine using RDP with the following credentials: admin/password
+
+#### I suggest using the xfreerdp command: 
+```
+xfreerdp /u:admin /p:password /cert:ignore /v:IP /workarea
+```
+
 #### Right-click the Immunity Debugger icon on the Desktop and choose "Run as administrator".
 
 #### When Immunity loads, click the open file icon, or choose File -> Open. Navigate to the vulnerable-apps folder on the admin user's desktop, and then the "oscp" folder. Select the "oscp" (oscp.exe) binary and click "Open".
